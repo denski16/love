@@ -26,9 +26,28 @@
     position: fixed;
     inset: 0;
     z-index: -1;
-
     background: url(background.jpg) no-repeat center;
     background-size: cover;
+    }
+
+    button {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 15px 0;
+    min-width: 150px;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.2s;
+    background: linear-gradient(45deg, #fdff78, #49ffff);
+    box-shadow: 0 4px 30px rgba(161, 88, 255, 0.35);
+    margin-top: 50px;
+    margin-left: 875px;
+    }
+
+    button:hover {
+        box-shadow: 0 7px 10px rgba(72, 255, 0, 0.75);
     }
 
 </style>
@@ -40,6 +59,11 @@
     <div class="img">
         <img src="hart hart.jpg" alt="...">
     </div>
+
+    <button onclick="window.location.href='hatdog.html';">
+        CLICK ME
+    </button>
+
     
 </body>
 </html>
